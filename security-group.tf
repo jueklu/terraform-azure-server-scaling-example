@@ -30,9 +30,6 @@ resource "azurerm_network_security_group" "sg-1" {
     destination_address_prefix = "*"
   }
 
-
-
-
   # Allow HTTPS
   security_rule {
     name                       = "HTTPS"
